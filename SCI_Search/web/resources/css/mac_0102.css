@@ -1,0 +1,1176 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+#box_cabecera {
+    float: left;
+    height: 118px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(0, 8, 51);
+}
+
+#box_image {
+    float: left;
+    height: 214.1875px;
+    margin-left: 6.122212%;
+    margin-top: 29.5px;
+    clear: both;
+    width: 220.84375px;
+    background-color: rgb(224, 224, 224);
+}
+
+#box_archivos {
+    float: none;
+    height: 325.375px;
+    margin-left: auto;
+    margin-top: 49px;
+    clear: none;
+    width: 87.731256%;
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-color: rgb(224, 224, 224);
+    border-right-color: rgb(224, 224, 224);
+    border-bottom-color: rgb(224, 224, 224);
+    border-left-color: rgb(224, 224, 224);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#formgroup {
+    float: left;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: -23.197413%;
+    margin-top: 69.65625px;
+    clear: none;
+    width: 17.074915%;
+    margin-right: 0%;
+}
+
+#cmb_nacionalidad {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#lbl_nacionalidad {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#tig_cedula {
+    float: left;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 12.929833%;
+    margin-top: 29.5px;
+    clear: none;
+    width: 23.198637%;
+    margin-right: 0%;
+}
+
+#txt_cedula {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    color: rgb(168, 168, 168);
+    font-family: 'Century Gothic';
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-indent: 7px;
+}
+
+#lbl_cedula {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#tig_direccion {
+    float: left;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: -33.780592%;
+    margin-top: 115.75px;
+    clear: none;
+    width: 34.133094%;
+    margin-right: 0%;
+}
+
+#lbl_direccion {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_direccion {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    color: rgb(168, 168, 168);
+    font-family: 'Century Gothic';
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-indent: 7px;
+}
+
+#tig_casilla {
+    float: left;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: -34.160084%;
+    margin-top: 155.375px;
+    clear: none;
+    width: 17.074915%;
+    margin-right: 0%;
+}
+
+#lbl_casilla {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_casilla {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    color: rgb(168, 168, 168);
+    font-family: 'Century Gothic';
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-indent: 7px;
+}
+
+#box_telefono_home {
+    float: left;
+    height: 33px;
+    margin-left: 6.122212%;
+    margin-top: 9.375px;
+    clear: both;
+    width: 24.587695%;
+    margin-right: 0px;
+    display: block;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#tig_telefono_home {
+    float: none;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 83.315459%;
+}
+
+#lbl_telefono_home {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_telefono_home {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#img_telefono_home {
+    float: left;
+    width: 23px;
+    height: 25px;
+    margin-left: 87.00557%;
+    margin-top: -30px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+    max-width: 11.567336%;
+}
+
+#box_telefono_celular {
+    float: none;
+    height: 33px;
+    margin-left: auto;
+    margin-top: 397.09375px;
+    clear: none;
+    width: 24.59%;
+    margin-right: auto;
+    display: block;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#tig_telefono_celular {
+    float: none;
+    height: 31px;
+    display: block;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 83.315459%;
+}
+
+#lbl_telefono_celular {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_telefono_celular {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#img_telefono_celular {
+    float: left;
+    width: 15.98px;
+    height: 24.96875px;
+    margin-left: 88.363029%;
+    margin-top: -27.96875px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+    max-width: none;
+}
+
+#box_fax {
+    float: right;
+    height: 33px;
+    margin-left: 0px;
+    margin-top: -33px;
+    clear: none;
+    width: 24.59%;
+    margin-right: 6.29066%;
+    display: block;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#tig_fax {
+    float: none;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 83.315459%;
+}
+
+#lbl_fax {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_fax {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#img_fax {
+    float: left;
+    width: 24.97px;
+    height: 24.96875px;
+    margin-left: 86.561376%;
+    margin-top: -29.96875px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+    max-width: none;
+}
+
+#formgroup2 {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 20.8125px;
+    clear: none;
+    width: 24.771787%;
+    margin-right: auto;
+}
+
+#lbl_cargo {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#cmb_cargo {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#btn_terminado:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 178, 52);
+}
+
+#btn_terminado {
+    float: none;
+    height: 31px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 27.5px;
+    clear: none;
+    width: 23.192551%;
+    margin-right: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    border-top-color: rgb(247, 178, 52);
+    border-right-color: rgb(247, 178, 52);
+    border-bottom-color: rgb(247, 178, 52);
+    border-left-color: rgb(247, 178, 52);
+    display: block;
+    background-color: rgba(255, 0, 0, 0);
+    margin-bottom: 27px;
+}
+
+#box_usuario {
+    float: left;
+    height: 33px;
+    margin-left: 50.001521%;
+    margin-top: 42px;
+    clear: none;
+    width: 13.13139%;
+    margin-right: 0%;
+    display: block;
+    background-color: rgb(0, 2, 13);
+}
+
+#tig_usuario {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 83.315459%;
+}
+
+#lbl_usuario {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_usuario {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#img_usuario {
+    float: left;
+    width: 15px;
+    height: 19px;
+    margin-left: 85.899664%;
+    margin-top: -25px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+    max-width: 11.567336%;
+}
+
+#box_password {
+    float: none;
+    height: 33px;
+    margin-left: 81.3565%;
+    margin-top: 42px;
+    clear: none;
+    width: 13.131451%;
+    display: block;
+    background-color: rgb(0, 2, 13);
+}
+
+#tig_password {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 83.315459%;
+}
+
+#lbl_password {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_password {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#img_password {
+    float: left;
+    width: 15.05px;
+    height: 17px;
+    margin-left: 85.873152%;
+    margin-top: -24px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+    max-width: none;
+}
+
+#lnk_olvido_contrasena {
+    float: none;
+    font-size: 0.7em;
+    width: 12.967076%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 81.537549%;
+    margin-top: 8px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    text-indent: 0px;
+    display: block;
+}
+
+#img_logo {
+    float: left;
+    width: 10.931414%;
+    max-width: none;
+    height: 43.765625px;
+    margin-left: 6.132851%;
+    margin-top: 37px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+}
+
+#formgroup1 {
+    float: left;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 6.246128%;
+    margin-top: 19.8125px;
+    clear: left;
+    width: 24.77%;
+    margin-right: 0%;
+}
+
+#lbl_contrato_indefinido {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#cmb_contrato_indefinido {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#formgroup3 {
+    float: right;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: -33px;
+    clear: none;
+    width: 24.771787%;
+    margin-right: 6.108659%;
+}
+
+#lbl_titulo {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#cmb_titulo {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#btn_agregar {
+    float: right;
+    height: 22px;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-top: 20.59375px;
+    clear: none;
+    width: 9.689934%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(247, 178, 52);
+    text-align: right;
+    display: block;
+    background-color: rgba(255, 0, 0, 0);
+    margin-right: 6.178361%;
+}
+
+#btn_subir_foto {
+    float: left;
+    height: 22px;
+    font-size: 1em;
+    margin-left: 6.122212%;
+    margin-top: 5.03125px;
+    clear: both;
+    width: 11.447176%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(247, 178, 52);
+    text-align: left;
+    display: block;
+    margin-right: 0%;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#tig_ciudad {
+    float: left;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: -5.281908%;
+    margin-top: 69.65625px;
+    clear: none;
+    width: 15.866906%;
+    margin-right: 0%;
+}
+
+#lbl_ciudad {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_ciudad {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    color: rgb(168, 168, 168);
+    font-family: 'Century Gothic';
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-indent: 7px;
+}
+
+@media only screen and (max-width: 480px) {
+    #box_archivos {
+        margin-top: 77px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+        margin-right: auto;
+    }
+
+    #box_image {
+        margin-top: 265px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #box_telefono_home {
+        margin-top: 8.625px;
+        margin-left: auto;
+        clear: none;
+        width: 65.281773%;
+        float: none;
+        height: 35.34375px;
+        margin-right: auto;
+    }
+
+    #btn_terminado {
+        margin-top: 29px;
+        clear: none;
+        width: 50.813938%;
+        margin-left: auto;
+        float: none;
+        margin-bottom: 19px;
+        margin-right: auto;
+    }
+
+    #box_telefono_celular {
+        margin-top: 21.84375px;
+        margin-left: auto;
+        clear: none;
+        width: 65.320999%;
+        float: none;
+        margin-right: auto;
+    }
+
+    #box_fax {
+        margin-top: 13.5px;
+        margin-left: auto;
+        clear: none;
+        width: 65.324268%;
+        float: none;
+        margin-right: auto;
+    }
+
+    #formgroup {
+        margin-top: 19.375px;
+        margin-left: 17.063285%;
+        clear: none;
+        margin-right: 0%;
+        width: 31.733787%;
+    }
+
+    #tig_direccion {
+        margin-top: 64.875px;
+        margin-left: auto;
+        clear: none;
+        float: none;
+        margin-right: auto;
+        width: 65.863624%;
+    }
+
+    #tig_casilla {
+        margin-top: 10px;
+        margin-left: auto;
+        clear: none;
+        float: none;
+        margin-right: auto;
+        width: 65.863624%;
+    }
+
+    #formgroup1 {
+        margin-top: 11px;
+        margin-left: auto;
+        clear: none;
+        width: 65.899582%;
+        margin-right: auto;
+        float: none;
+    }
+
+    #formgroup2 {
+        margin-top: 7px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 65.111794%;
+    }
+
+    #tig_cedula {
+        width: 65.866893%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        margin-top: 49.125px;
+        clear: none;
+    }
+
+    #box_usuario {
+        margin-top: 7.75px;
+        margin-left: auto;
+        clear: none;
+        width: 36.10421%;
+        float: none;
+        margin-right: auto;
+    }
+
+    #box_cabecera {
+        height: 236px;
+    }
+
+    #box_password {
+        margin-top: 9px;
+        margin-left: auto;
+        clear: none;
+        width: 36.1%;
+        margin-right: auto;
+        float: none;
+    }
+
+    #lnk_olvido_contrasena {
+        margin-top: 16px;
+        margin-left: auto;
+        clear: none;
+        float: none;
+        height: auto;
+        width: 29.968619%;
+        margin-right: auto;
+    }
+
+    #img_logo {
+        margin-top: 13px;
+        margin-left: auto;
+        clear: none;
+        float: none;
+        height: 93.25px;
+        width: 23.290403%;
+        max-width: none;
+        margin-right: auto;
+    }
+
+    #tig_telefono_home {
+        margin-top: -1px;
+        margin-left: -0.28541775%;
+        clear: none;
+        height: 35.34375px;
+    }
+
+    #img_telefono_home {
+        margin-top: -30px;
+        margin-left: 86.708614%;
+        clear: none;
+    }
+
+    #formgroup3 {
+        margin-top: 12px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 65.007191%;
+    }
+
+    #btn_agregar {
+        width: 23.371105%;
+        height: 22px;
+        margin-top: 48.4375px;
+        margin-left: 0px;
+        clear: none;
+        margin-right: 8.597019%;
+        float: right;
+    }
+
+    #btn_subir_foto {
+        width: 23.371105%;
+        height: 22px;
+        margin-top: 14.875px;
+        margin-right: 0%;
+        margin-left: 14.663964%;
+        clear: none;
+    }
+
+    #tig_ciudad {
+        width: 31.763206%;
+        margin-left: 0px;
+        margin-right: 17.037134%;
+        float: right;
+        margin-top: 19.375px;
+        clear: none;
+    }
+}
+

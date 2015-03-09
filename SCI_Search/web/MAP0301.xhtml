@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>
+        <title>Aprobaci&oacute;n de Grupos de Investigac&oacute;n</title>
+        <h:outputStylesheet library="css" name="boilerplate.css"/>
+        <h:outputStylesheet library="css" name="map_0301.css"/>
+    </h:head>
+    <h:body>
+        <div id="primaryContainer" class="primaryContainer clearfix">
+            <div id="box_cabecera" class="clearfix">
+                <h:graphicImage value="resources/images/logo_sci_search.svg" id="img_logo" class="image"/>
+                <p id="txt_nom_usuario">Nombre</p>
+                <p id="lnk_cerrar_sesion">Cerrar Sesi&oacute;n</p>
+                <div id="box_img_usuario" class="clearfix">
+                </div>
+            </div>
+            <p id="lbl_titulo">
+        Gesti&oacute;n de Grupos de Investigaci&oacute;n
+        </p>
+            <div id="tbl_aprobacion_gi_listado" align="center" class="clearfix">
+            <p>&nbsp;</p>    
+            <h:dataTable style=" alignment-adjust:auto; border-bottom-color:rgb(168, 168, 168);border-left-color: rgb(168, 168, 168);" class="people"  value="#{fGrupo.lista}" var="cliente"
+                         border="1" cellpadding="5" cellspacing="0" width="90%" rules="all" >
+                <h:column >     				
+                    <f:facet name="header">Nombre</f:facet>    				
+                    #{cliente.grNombreGrupo}
+                </h:column>
+                <h:column>    				
+                    <f:facet name="header">Abreviatura</f:facet>    				
+                    #{cliente.grAbreviaturaGrupo}
+                </h:column>
+                <h:column>    				
+                    <f:facet name="header">Fecha Registro</f:facet>    				
+                    #{cliente.grFechaRegistro}
+                </h:column>
+                <h:column>    				
+                <f:facet name="header">Estado</f:facet>    				
+                   #{cliente.grEstado}
+                </h:column>
+                <h:column>    				
+                <f:facet name="header">&nbsp;</f:facet>  
+                <c:if test="#{cliente.grEstado==1}">
+                <img style="cursor: pointer" src="resources/images/process.ico" 
+                onclick="location.href='MAP0302.xhtml?ref_grpo=#{cliente.grId}'" 
+                width="25" height="25" ></img>
+                </c:if>           
+                <c:if test="#{cliente.grEstado==2}">
+                <img style="cursor: pointer" src="resources/images/warning.ico" 
+                onclick="location.href='MAP0302.xhtml?ref_grpo=#{cliente.grId}'" 
+                width="25" height="25" ></img>
+                </c:if> 
+                <c:if test="#{cliente.grEstado==3}">
+                <img style="cursor: pointer" src="resources/images/accept.ico" 
+                onclick="location.href='MAP0302.xhtml?ref_grpo=#{cliente.grId}'" 
+                width="25" height="25" ></img>
+                </c:if> 
+                <c:if test="#{cliente.grEstado==4}">
+                <img style="cursor: pointer" src="resources/images/delete.ico" 
+                onclick="location.href='MAP0302.xhtml?ref_grpo=#{cliente.grId}'" 
+                width="25" height="25" ></img>
+                </c:if> 
+                <img style="cursor: pointer" src="resources/images/warning.ico" 
+                onclick="location.href='MAP0302.xhtml?ref_grpo=#{cliente.grId}'" 
+                width="25" height="25" ></img>
+                </h:column>
+                </h:dataTable>
+        </div>
+        <p>&nbsp;</p>   
+            <table align="center" width="70%" border="0">
+                <td>&nbps;</td>
+                <td align="right">
+                  <b><font style=" font-size:11px; font-style: italic">En proceso</font></b> 
+                  <img src="resources/images/process.ico" width="25" height="25" ></img>&nbsp;&nbsp;
+                  <b><font style=" font-size:11px; font-style: italic">Pendiente</font></b>
+                  <img src="resources/images/warning.ico" width="25" height="25" ></img>&nbsp;&nbsp;
+                  <b><font style=" font-size:11px; font-style: italic">Aprobado</font></b> 
+                  <img src="resources/images/accept.ico" width="25" height="25" ></img>&nbsp;&nbsp;
+                  <b><font style=" font-size:11px; font-style: italic">Negado</font></b> 
+                  <img src="resources/images/delete.ico" width="25" height="25" ></img>
+                </td>
+                <td>&nbps;</td>
+            </table>
+        <p>&nbsp;</p>
+        <b>&nbsp;</b>
+        </div>
+    </h:body>
+</html>

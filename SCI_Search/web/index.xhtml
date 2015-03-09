@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form id="frmCursos">
+            <h:dataTable value="#{fGrupo.lista}" var="cliente"
+                border="0" cellpadding="4" cellspacing="0" rules="all" >
+                <h:column>    				
+                    <f:facet name="header">Nombre</f:facet>    				
+                    #{cliente.grNombreGrupo}
+                </h:column>
+                <h:column>    				
+                    <f:facet name="header">Abreviatura</f:facet>    				
+                    #{cliente.grAbreviaturaGrupo}
+                </h:column>
+                <h:column>    				
+                    <f:facet name="header">Fecha Registro</f:facet>    				
+                    #{cliente.grFechaRegistro}
+                </h:column>
+                <h:column>    				
+                    <f:facet name="header">Fecha Aprobacion</f:facet>    				
+                    #{cliente.grFechaAprobacion}
+                </h:column>
+            </h:dataTable>
+        </h:form>
+    </h:body>
+</html>
+

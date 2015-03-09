@@ -1,0 +1,767 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    position: relative;
+}
+
+#box_cabecera {
+    float: none;
+    height: 120.00000375px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(0, 8, 51);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pnl_fondo {
+    float: left;
+    height: auto;
+    clear: none;
+    width: 68.6435%;
+    background-color: rgb(247, 178, 52);
+    position: absolute;
+    top: 120px;
+    left: 0%;
+    bottom: 0%;
+    right: auto;
+}
+
+#box_telefono {
+    float: none;
+    height: 33px;
+    margin-left: 14.441949%;
+    margin-top: 12px;
+    clear: none;
+    width: 72.37%;
+    display: block;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#tig_telefono {
+    float: none;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 0.00519561%;
+    margin-top: 0px;
+    clear: none;
+    width: 83.312597%;
+}
+
+#lbl_telefono {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_telefono {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 0px;
+    margin-left: 0.00623636%;
+    clear: none;
+}
+
+#img_telefono {
+    float: left;
+    width: 23px;
+    height: 25px;
+    margin-left: 87.008813%;
+    margin-top: -30px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+    max-width: 11.567336%;
+}
+
+#btn_registrar:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 178, 52);
+}
+
+#btn_registrar {
+    float: none;
+    height: 31px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 22.75px;
+    clear: none;
+    width: 72.37%;
+    margin-right: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    border-top-color: rgb(247, 178, 52);
+    border-right-color: rgb(247, 178, 52);
+    border-bottom-color: rgb(247, 178, 52);
+    border-left-color: rgb(247, 178, 52);
+    display: block;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#box_img_usuario {
+    float: right;
+    height: 52px;
+    margin-left: 0px;
+    margin-top: -28px;
+    clear: none;
+    width: 52px;
+    margin-right: 1.197359%;
+    display: block;
+    background-color: rgb(0, 2, 13);
+    background-image:url("img/perfil.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+}
+
+#lnk_cerrar_sesion {
+    float: right;
+    font-size: 0.7em;
+    width: 12.967076%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 13px;
+    clear: right;
+    min-height: 0px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    text-indent: 0px;
+    display: block;
+    margin-right: 2.901351%;
+}
+
+#tig_razon_social {
+    float: none;
+    height: 34px;
+    display: block;
+    text-align: left;
+    margin-left: 14.754419%;
+    margin-top: 49px;
+    clear: none;
+    width: 72.36598%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#lbl_razon_social {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_razon_social {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 99.897714%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 0px;
+    margin-left: 0.00494413%;
+    clear: none;
+}
+
+#pnl_registro_cofinanciador {
+    float: right;
+    height: auto;
+    clear: both;
+    width: 31.161758%;
+    position: absolute;
+    top: 122px;
+    left: auto;
+    background-color: rgb(255, 255, 255);
+    bottom: 0%;
+    right: 0.09737098%;
+}
+
+#tig_representante_legal {
+    float: none;
+    height: 34px;
+    display: block;
+    text-align: left;
+    margin-left: 14.441949%;
+    margin-top: 11px;
+    clear: none;
+    width: 72.365979%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#lbl_representante_legal {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_representante_legal {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 99.897714%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    margin-top: 0px;
+    margin-left: 0.00494413%;
+    clear: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#tig_direccion {
+    float: none;
+    height: 34px;
+    display: block;
+    text-align: left;
+    margin-left: 14.12948%;
+    margin-top: 12px;
+    clear: none;
+    width: 72.365979%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#lbl_direccion {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_direccion {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 99.897714%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    margin-top: 0px;
+    margin-left: 0.00494413%;
+    clear: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#tig_pagina_web {
+    float: none;
+    height: 34px;
+    display: block;
+    text-align: left;
+    margin-left: 13.81701%;
+    margin-top: 14px;
+    clear: none;
+    width: 72.365979%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#lbl_pagina_web {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_pagina_web {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 99.897714%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    margin-top: 0px;
+    margin-left: 0.00494413%;
+    clear: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#tig_email {
+    float: none;
+    height: 34px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 10.375px;
+    clear: none;
+    width: 72.365979%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: auto;
+}
+
+#lbl_email {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_email {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 99.897714%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(168, 168, 168);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    margin-top: 0px;
+    margin-left: 0.00494413%;
+    clear: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#txt_nom_usuario {
+    float: right;
+    font-size: 1.2em;
+    width: 14.523491%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 33px;
+    clear: none;
+    min-height: 20px;
+    margin-right: 1.343415%;
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic';
+}
+
+#text {
+    float: left;
+    font-size: 2.2em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 2.650827%;
+    margin-top: 26px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: COCOGOOSE;
+}
+
+#img_modulo {
+    float: none;
+    width: 48.778758%;
+    max-width: none;
+    height: 382.140625px;
+    margin-left: auto;
+    margin-top: 97px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#img_logo {
+    float: left;
+    width: 10.931414%;
+    max-width: none;
+    height: 43.765625px;
+    margin-left: 6.132851%;
+    margin-top: 37px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+}
+
+@media only screen and (max-width: 480px) {
+    #pnl_fondo {
+        clear: none;
+        float: none;
+        top: 0px;
+        left: 0px;
+        height: 290px;
+        bottom: auto;
+        position: static;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #pnl_registro_cofinanciador {
+        top: 0px;
+        right: auto;
+        height: 473px;
+        width: 96.861925%;
+        position: static;
+        bottom: auto;
+        left: 0px;
+        margin-top: 0px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+        margin-right: auto;
+    }
+
+    #img_modulo {
+        width: 32.057401%;
+        height: 205.6875px;
+        margin-top: 8px;
+        margin-left: auto;
+        clear: none;
+        max-width: none;
+        float: none;
+        margin-right: auto;
+    }
+
+    #text {
+        margin-top: 15px;
+        margin-left: auto;
+        clear: none;
+        height: auto;
+        min-height: 45px;
+        float: none;
+        line-height: 1.3em;
+        text-indent: 0px;
+        width: 85.555047%;
+        margin-right: auto;
+        font-size: 1.6em;
+    }
+
+    #tig_razon_social {
+        width: 72.971562%;
+        height: 36px;
+    }
+
+    #txt_razon_social {
+        width: 99.06311%;
+        height: 33px;
+    }
+
+    #tig_representante_legal {
+        margin-top: 9px;
+        margin-left: 14.437639%;
+        clear: none;
+        width: 72.971562%;
+        height: 36px;
+    }
+
+    #txt_representante_legal {
+        width: 99.06311%;
+        height: 33px;
+    }
+
+    #tig_direccion {
+        margin-top: 10px;
+        margin-left: 14.129041%;
+        clear: none;
+        width: 72.971562%;
+        height: 36px;
+    }
+
+    #txt_direccion {
+        width: 99.06311%;
+        height: 33px;
+    }
+
+    #box_telefono {
+        margin-top: 10px;
+        margin-left: 14.437639%;
+        clear: none;
+        width: 72.368608%;
+        height: 33px;
+    }
+
+    #tig_telefono {
+        width: 83.307972%;
+    }
+
+    #txt_telefono {
+        width: 100%;
+        height: 33px;
+    }
+
+    #img_telefono {
+        width: 23px;
+        height: 25px;
+    }
+
+    #tig_pagina_web {
+        width: 72.971562%;
+        height: 36px;
+    }
+
+    #txt_pagina_web {
+        width: 99.06311%;
+        height: 33px;
+    }
+
+    #tig_email {
+        margin-top: 8.375px;
+        clear: none;
+        width: 72.971562%;
+        height: 36px;
+    }
+
+    #txt_email {
+        margin-top: 0px;
+        margin-left: 0.41639558%;
+        clear: none;
+        width: 99.06311%;
+        height: 33px;
+    }
+
+    #btn_registrar {
+        margin-top: 20.75px;
+        clear: none;
+        width: 72.368608%;
+        height: 31px;
+    }
+
+    #box_cabecera {
+        height: 76px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #lnk_cerrar_sesion {
+        margin-right: 14.670502%;
+        margin-top: 10px;
+        clear: right;
+        margin-left: 0px;
+        height: auto;
+        width: 17.04694%;
+    }
+
+    #box_img_usuario {
+        margin-right: 8.851987%;
+        margin-top: -20px;
+        clear: none;
+        opacity: 0;
+        margin-left: 0px;
+    }
+
+    #img_logo {
+        margin-top: 0px;
+        margin-left: 6.132322%;
+        clear: none;
+        float: left;
+        height: 66.765625px;
+        width: 22.417626%;
+        max-width: none;
+        margin-right: 0px;
+    }
+
+    #txt_nom_usuario {
+        margin-right: 12.768044%;
+        margin-top: 14.234375px;
+        clear: none;
+        height: auto;
+        width: 18.94613%;
+    }
+}
+

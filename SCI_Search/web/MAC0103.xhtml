@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
+    <h:head>
+        <title>Registro de Cofinanciador</title>
+        <h:outputStylesheet library="css" name="boilerplate.css"/>
+        <h:outputStylesheet library="css" name="mac_0103.css"/>
+    </h:head>
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <div id="box_cabecera" class="clearfix">
+            <img id="img_logo" src="resources/images/logo_sci_search.svg" class="image" />
+            <p id="txt_nom_usuario">
+            Nombre
+            </p>
+            <p id="lnk_cerrar_sesion">
+            Cerrar Sesion
+            </p>
+            <div id="box_img_usuario" class="clearfix">
+            </div>
+        </div>
+        <div id="pnl_fondo" class="clearfix">
+            <p id="text">
+            Registro de Cofinanciador
+            </p>
+            <img id="img_modulo" src="resources/images/finance.svg" class="image" />
+        </div>
+        
+        <div id="pnl_registro_cofinanciador" class="clearfix">
+        <h:form id="frmProyecto">
+            <label id="tig_razon_social">
+                        <h:inputText required="true"
+                                     requiredMessage="Se requiere un titulo"
+                                     class="txt_razon_social"
+                                     value="#{fCofinanciador.nuevocurso.coRazonSocial}"
+                                     p:placeholder="Razon Social"/>
+
+            </label>
+            <label id="tig_representante_legal">
+                        <h:inputText required="true"
+                                     requiredMessage="Se requiere un titulo"
+                                     class="txt_representante_legal"
+                                     value="#{fCofinanciador.nuevocurso.coRepresentanteLegal}"
+                                     p:placeholder="Representante Legal"/>
+
+            </label>
+            <label id="tig_direccion">
+                        <h:inputText required="true"
+                                     requiredMessage="Se requiere un titulo"
+                                     class="txt_direccion"
+                                     value="#{fCofinanciador.nuevocurso.coDireccion}"
+                                     p:placeholder="Direccion"/>
+
+            </label>
+            <label id="tig_telefono">
+                        <h:inputText required="true"
+                                     requiredMessage="Se requiere un titulo"
+                                     class="txt_telefono"
+                                     value="#{fCofinanciador.nuevocurso.coTelefono}"
+                                     p:placeholder="Telefono"/>
+                        <img id="img_telefono" src="resources/images/phone.png" class="image" />
+
+            </label>
+            <label id="tig_pagina_web">
+                        <h:inputText required="true"
+                                     requiredMessage="Se requiere un titulo"
+                                     class="txt_pagina_web"
+                                     value="#{fCofinanciador.nuevocurso.coPaginaWeb}"
+                                     p:placeholder="Pagina Web"/>
+
+            </label>
+            <label id="tig_email">
+                        <h:inputText required="true"
+                                     requiredMessage="Se requiere un titulo"
+                                     class="txt_email"
+                                     value="#{fCofinanciador.nuevocurso.coEmail}"
+                                     p:placeholder="E-mail"/>
+
+            </label>
+            <h:commandButton value="Ingresar"
+                             action="#{fCofinanciador.insertar()}"
+                                     />
+        </h:form>
+        </div>
+            
+    </div>
+</html>

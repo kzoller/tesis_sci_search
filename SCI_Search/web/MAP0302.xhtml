@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Aprobaci&oacute;n de Grupos de Investigac&oacute;n</title>
+        <h:outputStylesheet library="css" name="boilerplate.css"/>
+        <h:outputStylesheet library="css" name="map_0302.css"/>
+    </h:head>
+    <h:body>
+        <div id="primaryContainer" class="primaryContainer clearfix">
+            <div id="box_cabecera" class="clearfix">
+                <h:graphicImage value="resources/images/logo_sci_search.svg" id="img_logo" class="image"/>
+                <p id="txt_nom_usuario">Nombre</p>
+                <p id="lnk_cerrar_sesion">Cerrar Sesi&oacute;n</p>
+                <div id="box_img_usuario" class="clearfix">
+                </div>
+            </div>
+        <div id="pnl_fondo" class="clearfix">
+            <p id="text">
+            Aprobaci&oacute;n de Grupos de Investigaci&oacute;n<br />
+            </p>
+        </div>
+        
+            <div id="pnl_formulario_1" align="center" value="#{fUsuario.lista}" class="clearfix">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h:dataTable style=" alignment-adjust:auto" value="#{fUsuario.lista2}" var="cliente"
+                border="1" cellpadding="5" cellspacing="0" width="90%" rules="all" >
+                <h:column >     				
+                    <b>Nombre:</b> &nbsp;&nbsp; #{cliente.refGrupo.grNombreGrupo}    				
+                  <br>				
+                   <b>Abreviatura:</b> &nbsp;&nbsp; #{cliente.refGrupo.grAbreviaturaGrupo}
+                  </br>
+                 </h:column>
+            </h:dataTable> 
+            <div id="tbl_evidencia" align="center" class="clearfix">
+            <p>&nbsp;</p>
+                <h:dataTable style=" alignment-adjust:auto" value="#{fUsuario.lista}" var="cliente"
+                border="1" cellpadding="5" cellspacing="0" width="90%" rules="all" >
+                <h:column >     				
+                    <f:facet name="header" class="tablas" >Nombre</f:facet>    				
+                    #{cliente.usNombre}
+                </h:column>
+                <h:column>    				
+                    <f:facet name="header">Apellido</f:facet>    				
+                    #{cliente.usApellido}
+                </h:column>
+                    <h:column>    				
+                    <f:facet name="header">Grupo</f:facet>    				
+                    #{cliente.refGrupo.grNombreGrupo}
+                </h:column>
+                </h:dataTable>
+            </div>
+        </div>
+        <div id="pnl_botones" class="clearfix">
+            <input id="btn_negar" onclick="#{fUsuario.negar()};" type="button" value="NEGAR"></input>
+            <input id="btn_aprobar" onclick="#{fUsuario.aprobar()};" type="button" value="APROBAR"></input>
+        </div>
+    </div>
+    </h:body>
+</html>
+

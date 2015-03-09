@@ -1,0 +1,1400 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#box {
+    float: left;
+    height: 653px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-image:url("resources/images/10688249_839923166051852_7566004009109911437_o.png");
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#text {
+    float: none;
+    font-size: 3.8em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 47px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(244, 244, 244);
+    font-family: muli;
+    margin-right: auto;
+}
+
+#box_img_usuario {
+    float: none;
+    height: 173px;
+    margin-left: auto;
+    margin-top: 27px;
+    clear: none;
+    width: 173px;
+    display: block;
+    background-image:url("resources/images/perfil.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    -webkit-background-size: auto 66.19999694824219%;
+    background-size: auto 66.19999694824219%;
+    background-color: rgb(0, 8, 51);
+    margin-right: auto;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-top-color: rgb(0, 8, 51);
+    border-right-color: rgb(0, 8, 51);
+    border-bottom-color: rgb(0, 8, 51);
+    border-left-color: rgb(0, 8, 51);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#text1 {
+    float: none;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 0.8em;
+    margin-left: auto;
+    margin-top: 27px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(244, 244, 244);
+    font-family: muli;
+    margin-right: auto;
+    display: block;
+}
+
+#textspan {
+    float: none;
+    font-size: 0.7em;
+    line-height: 1em;
+    color: rgb(199, 199, 199);
+}
+
+#input {
+    float: right;
+    height: 43px;
+    font-size: 22.4px;
+    margin-left: 0px;
+    margin-top: 15px;
+    clear: none;
+    width: 105.53125px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-image:url("resources/images/menu.png");
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 28px 22.4px;
+    background-size: 28px 22.4px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    background-color: rgba(229, 233, 232, 0);
+    text-align: right;
+    text-indent: 0px;
+    color: rgb(247, 178, 52);
+    font-family: muli;
+    margin-right: 2.904823%;
+}
+
+#text2 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 2.2em;
+    margin-left: auto;
+    margin-top: 113px;
+    clear: none;
+    min-height: 37px;
+    font-family: muli;
+    color: rgba(255, 0, 0, 0);
+    margin-right: auto;
+    background-image:url("resources/images/mouse.svg");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#text2:hover {
+    opacity: 1;
+    background-image:url("resources/images/mouse.svg");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 0px;
+    background-size: 0px;
+    color: rgb(247, 178, 52);
+}
+
+#box2 {
+    float: none;
+    height: 50px;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    width: 50px;
+    background-image:url("resources/images/home.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-right: auto;
+}
+
+#box1 {
+    float: left;
+    height: 56px;
+    margin-left: 2.438654%;
+    margin-top: 14px;
+    clear: none;
+    width: 198.3125px;
+    margin-right: 0px;
+    display: block;
+    background-image:url("resources/images/2-3_Logo%20UPS.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#box3 {
+    float: left;
+    height: 536px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(247, 178, 52);
+}
+
+#text3 {
+    float: none;
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 33px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(0, 8, 51);
+    font-family: comfortaa;
+    margin-right: auto;
+    letter-spacing: 4px;
+}
+
+#box4 {
+    float: none;
+    height: 6px;
+    margin-left: auto;
+    margin-top: 4px;
+    clear: none;
+    width: 109.99999709999999px;
+    background-color: rgb(0, 8, 51);
+    margin-right: auto;
+}
+
+#box7 {
+    float: none;
+    height: 137px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 137px;
+    background-color: rgb(0, 8, 51);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-image:url("resources/images/adm_central.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+    margin-right: auto;
+}
+
+#text4 {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-top: 9px;
+    clear: none;
+    min-height: 24px;
+    font-family: comfortaa;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    margin-right: auto;
+}
+
+#text5 {
+    float: none;
+    font-size: 1em;
+    width: 87.233412%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 13px;
+    clear: none;
+    min-height: 0px;
+    font-family: muli;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#box6 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 27.767725%;
+    margin-right: 0%;
+}
+
+#box8 {
+    float: left;
+    height: auto;
+    margin-left: 8.432719%;
+    margin-top: 0px;
+    clear: none;
+    width: 27.767725%;
+    display: block;
+    margin-right: 0%;
+}
+
+#box9 {
+    float: none;
+    height: 137px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 137px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-right: auto;
+    background-image:url("resources/images/group_inv.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+    background-color: rgb(0, 8, 51);
+}
+
+#text6 {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-top: 9px;
+    clear: none;
+    min-height: 24px;
+    font-family: comfortaa;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    margin-right: auto;
+}
+
+#text7 {
+    float: none;
+    font-size: 1em;
+    width: 87.233412%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 13px;
+    clear: none;
+    min-height: 0px;
+    font-family: muli;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#box10 {
+    float: left;
+    height: auto;
+    margin-left: 8.264106%;
+    margin-top: 0px;
+    clear: none;
+    width: 27.767725%;
+    display: block;
+    margin-right: 0%;
+}
+
+#box11 {
+    float: none;
+    height: 137px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 137px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-right: auto;
+    background-image:url("resources/images/project.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+    background-color: rgb(0, 8, 51);
+}
+
+#text8 {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-top: 9px;
+    clear: none;
+    min-height: 24px;
+    font-family: comfortaa;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    margin-right: auto;
+}
+
+#text9 {
+    float: none;
+    font-size: 1em;
+    width: 93.298282%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 13px;
+    clear: none;
+    min-height: 0px;
+    font-family: muli;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#box5 {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 79px;
+    clear: none;
+    width: 73.845967%;
+    margin-right: auto;
+}
+
+#box12 {
+    float: none;
+    height: 384px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    background-image:url("resources/images/10688249_839923166051852_7566004009109911437_o.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-right: auto;
+}
+
+#text10 {
+    float: left;
+    font-size: 1em;
+    width: 94.46%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 2.770167%;
+    margin-top: 52px;
+    clear: none;
+    min-height: 274px;
+    font-family: josefin-sans;
+    margin-right: 0px;
+}
+
+#textspan3 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    font-family: fira-sans;
+}
+
+#textspan2 {
+    float: none;
+    font-size: 3.3em;
+    line-height: 1em;
+    font-family: fira-sans;
+    color: rgb(244, 244, 244);
+}
+
+#textspan4 {
+    float: none;
+    font-size: 1.2em;
+    line-height: 1em;
+    color: rgb(244, 244, 244);
+}
+
+#textspan1 {
+    float: none;
+    font-size: 3.3em;
+    line-height: 1em;
+    color: rgb(244, 244, 244);
+    font-family: muli;
+}
+
+#box13 {
+    float: left;
+    height: 384px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 44.894922%;
+    background-color: rgba(0, 4, 26, 0.882353);
+}
+
+#box14 {
+    float: right;
+    height: 426px;
+    margin-left: 0px;
+    margin-top: 3px;
+    clear: none;
+    width: 438.15625px;
+    margin-right: 7.322036%;
+    overflow-y: visible;
+    overflow-x: visible;
+    background-image:url("resources/images/iMac.png");
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#box15 {
+    float: none;
+    height: 538px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    margin-right: 0px;
+}
+
+#Box {
+    float: left;
+    height: 428px;
+    margin-left: 7.332665%;
+    margin-top: 79px;
+    clear: none;
+    width: 31.143707%;
+    min-height: 50px;
+    background-image:url("resources/images/iPad-Air-2-colors.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-right: 0%;
+}
+
+#text11 {
+    float: left;
+    font-size: 2.8em;
+    width: 99.999999%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 0.8em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 120px;
+    font-family: muli;
+    margin-right: 0%;
+}
+
+#textspan6 {
+    float: none;
+    font-size: 0.5em;
+    line-height: 0.2em;
+    font-weight: 300;
+    color: rgb(168, 168, 168);
+}
+
+#textspan5 {
+    float: none;
+    font-size: 1em;
+    line-height: 0.9em;
+    font-weight: 300;
+}
+
+#box17 {
+    float: left;
+    height: 50px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 50px;
+    margin-right: 0%;
+    display: block;
+    background-image:url("resources/images/computer173.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#box18 {
+    float: left;
+    height: 31px;
+    margin-left: 1.334989%;
+    margin-top: 11px;
+    clear: none;
+    width: 27.65625px;
+    margin-right: 0%;
+    display: block;
+    background-image:url("resources/images/smartphone39.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#box19 {
+    float: left;
+    height: 31px;
+    margin-left: 1.009003%;
+    margin-top: 14px;
+    clear: none;
+    width: 20.65625px;
+    margin-right: 0%;
+    display: block;
+    background-image:url("resources/images/mobile-phone14.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#box16 {
+    float: right;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 29px;
+    clear: both;
+    width: 35.336063%;
+    margin-right: 64.663937%;
+}
+
+#Box1 {
+    float: right;
+    height: 334px;
+    margin-left: 0px;
+    margin-top: 69px;
+    clear: none;
+    width: 44.800777%;
+    margin-right: 8.533771%;
+}
+
+#box20 {
+    float: left;
+    height: 495px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    margin-right: 0px;
+    background-image:url("resources/images/papers.co-se06-lava-life-red-hot-gradation-blur-3840x2400-4k-wallpaper.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    min-width: 0px;
+}
+
+#box21 {
+    float: right;
+    height: 309px;
+    margin-left: 0px;
+    margin-top: 110px;
+    clear: none;
+    width: 341.5625px;
+    min-height: 50px;
+    display: block;
+    background-image:url("resources/images/html10.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-right: 7.279519%;
+}
+
+#text12 {
+    float: left;
+    font-size: 2.8em;
+    width: 44.800777%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 0.8em;
+    margin-left: 3.998117%;
+    margin-top: 95px;
+    clear: none;
+    min-height: 120px;
+    font-family: muli;
+    margin-right: 0%;
+    display: block;
+}
+
+#textspan8 {
+    float: none;
+    font-size: 0.5em;
+    line-height: 0.2em;
+    font-weight: 300;
+    color: rgb(244, 244, 244);
+}
+
+#textspan7 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(244, 244, 244);
+}
+
+#box22 {
+    float: left;
+    height: 478px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+#text13 {
+    float: left;
+    font-size: 1.2em;
+    width: 30.237398%;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 2px;
+    clear: none;
+    min-height: 249px;
+    color: rgb(244, 244, 244);
+    font-family: muli;
+    margin-right: 0%;
+}
+
+#textspan9 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+    font-weight: 500;
+}
+
+#textspan11 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+    font-weight: 500;
+}
+
+#text14 {
+    float: left;
+    font-size: 1.2em;
+    width: 30.237398%;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    margin-left: 2.315045%;
+    margin-top: 2px;
+    clear: none;
+    min-height: 249px;
+    color: rgb(244, 244, 244);
+    font-family: muli;
+    margin-right: 0%;
+}
+
+#textspan12 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+    font-weight: 500;
+}
+
+#text15 {
+    float: left;
+    font-size: 1.2em;
+    width: 30.237398%;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    margin-left: 2.287419%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 249px;
+    color: rgb(244, 244, 244);
+    font-family: muli;
+    margin-right: 0%;
+    display: block;
+}
+
+#textspan16 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+    font-weight: 500;
+}
+
+#textspan18 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+    font-weight: 500;
+}
+
+#textspan19 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+}
+
+#textspan10 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+}
+
+#textspan13 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+}
+
+#textspan14 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+}
+
+#textspan15 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+}
+
+#textspan17 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(247, 178, 52);
+}
+
+#box23 {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 53px;
+    clear: none;
+    width: 82.448069%;
+    margin-right: auto;
+}
+
+#box24 {
+    float: left;
+    height: 364px;
+    margin-left: 2.254268%;
+    margin-top: 0px;
+    clear: none;
+    width: 0.11971195%;
+    margin-right: 0%;
+    background-color: rgb(247, 178, 52);
+}
+
+#box25 {
+    float: left;
+    height: 364px;
+    margin-left: 2.187966%;
+    margin-top: 0px;
+    clear: none;
+    width: 0.11971195%;
+    margin-right: 0%;
+    display: block;
+    background-color: rgb(247, 178, 52);
+}
+
+@media only screen and (max-width: 918px) {
+    #text10 {
+        margin-top: 55px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        width: 95.112501%;
+        float: none;
+        height: auto;
+        min-height: 135px;
+    }
+
+    #box13 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+        width: 100%;
+        height: 224px;
+    }
+
+    #box12 {
+        height: 623px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        clear: both;
+    }
+
+    #box3 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #box14 {
+        margin-right: auto;
+        margin-top: 242px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+    }
+
+    #box22 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #box16 {
+        margin-right: 69.430074%;
+        margin-top: 11px;
+        clear: both;
+        width: 30.02673%;
+        margin-left: 0px;
+    }
+
+    #text11 {
+        height: auto;
+        min-height: 340px;
+    }
+
+    #box20 {
+        background-image:url("resources/images/papers.co-se06-lava-life-red-hot-gradation-blur-3840x2400-4k-wallpaper.jpg");
+        background-attachment: fixed;
+        -webkit-background-size: 100%;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    #Box1 {
+        height: 401px;
+    }
+
+    #box23 {
+        margin-top: 53px;
+        margin-left: auto;
+        clear: none;
+        width: 97.033375%;
+        margin-right: auto;
+    }
+
+    #text15 {
+        font-size: 1.1em;
+    }
+
+    #text14 {
+        font-size: 1.1em;
+    }
+
+    #text13 {
+        font-size: 1.1em;
+    }
+
+    #input {
+        margin-top: 9px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #text12 {
+        margin-top: 35px;
+        margin-left: auto;
+        clear: none;
+        height: auto;
+        width: 89.785156%;
+        margin-right: auto;
+        float: none;
+    }
+
+    #box21 {
+        margin-right: auto;
+        margin-top: 24px;
+        clear: none;
+        height: 263px;
+        width: 303.5625px;
+        margin-left: auto;
+        float: none;
+    }
+
+    #box20 {
+        height: 515px;
+        overflow-y: visible;
+        overflow-x: visible;
+        background-image:url("resources/images/papers.co-se06-lava-life-red-hot-gradation-blur-3840x2400-4k-wallpaper.jpg");
+        background-attachment: fixed;
+        -webkit-background-size: 100%;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    #text11 {
+        height: auto;
+        min-height: 340px;
+    }
+
+    #box3 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #box12 {
+        margin-top: 0px;
+        clear: both;
+    }
+
+    #box22 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        height: 377px;
+    }
+
+    #box16 {
+        margin-right: 74.010777%;
+        margin-top: 0px;
+        clear: both;
+        margin-left: 0px;
+        width: 25.989585%;
+    }
+
+    #Box1 {
+        height: 401px;
+        margin-right: 1.588542%;
+        margin-top: 69px;
+        clear: none;
+        width: 53.967014%;
+    }
+
+    #box24 {
+        height: 269px;
+    }
+
+    #text14 {
+        font-size: 91.3%;
+    }
+
+    #box25 {
+        height: 269px;
+    }
+
+    #box23 {
+        margin-top: 53px;
+        margin-left: auto;
+        clear: none;
+        width: 92.447917%;
+        margin-right: auto;
+    }
+
+    #text13 {
+        font-size: 91.3%;
+    }
+
+    #text15 {
+        font-size: 91.3%;
+    }
+
+    #text2 {
+        opacity: 0;
+    }
+
+    #input {
+        margin-right: 4.296875%;
+        margin-top: 16px;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #box3 {
+        height: 926px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #box5 {
+        height: 826px;
+        margin-left: auto;
+        margin-top: 38px;
+        clear: none;
+        width: 96.731771%;
+        margin-right: auto;
+    }
+
+    #box10 {
+        margin-top: 0px;
+        margin-left: auto;
+        clear: none;
+        width: 68.579217%;
+        float: none;
+        margin-right: auto;
+    }
+
+    #box8 {
+        margin-top: 0px;
+        margin-left: auto;
+        clear: none;
+        width: 68.47153%;
+        height: 263px;
+        float: none;
+        margin-right: auto;
+    }
+
+    #box6 {
+        width: 67.865796%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #text6 {
+        margin-top: 9px;
+        clear: none;
+    }
+
+    #box9 {
+        margin-top: 0px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #box12 {
+        margin-top: 0px;
+        clear: both;
+    }
+
+    #text10 {
+        margin-top: 9px;
+        clear: none;
+    }
+
+    #input {
+        margin-right: 0.41171706%;
+        margin-top: 8px;
+        clear: none;
+    }
+
+    #text {
+        margin-top: 10px;
+        clear: none;
+        font-size: 2.4em;
+    }
+
+    #box2 {
+        margin-top: 76px;
+        clear: none;
+        margin-left: auto;
+        height: 31px;
+        width: 42px;
+        margin-right: auto;
+    }
+
+    #text2 {
+        margin-top: 78px;
+        clear: none;
+        opacity: 0;
+    }
+
+    #box17 {
+        margin-top: 3px;
+        clear: none;
+        margin-left: 0.01067692%;
+        height: 39px;
+        width: 52px;
+        margin-right: auto;
+    }
+
+    #box18 {
+        margin-top: 3px;
+        clear: none;
+        margin-left: 0%;
+        height: 31px;
+        width: 42px;
+        margin-right: auto;
+    }
+
+    #box19 {
+        margin-top: 10px;
+        clear: none;
+        margin-left: 0%;
+        height: 24px;
+        width: 28.734375px;
+        margin-right: auto;
+    }
+
+    #box22 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        height: 913px;
+    }
+
+    #box20 {
+        height: 471px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #Box {
+        height: 270px;
+        margin-top: 55px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        width: 44.742839%;
+        background-image:url("resources/images/iPad-Air-2-colors.png");
+        background-attachment: scroll;
+        -webkit-background-size: contain;
+        background-size: contain;
+        float: none;
+        background-position: 50% 0%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #text11 {
+        height: auto;
+        min-height: 0px;
+    }
+
+    #Box1 {
+        width: 95.973307%;
+        height: 372px;
+        margin-right: 1.588542%;
+        margin-top: 14px;
+        clear: none;
+    }
+
+    #box15 {
+        height: 711px;
+    }
+
+    #box16 {
+        margin-right: 68.229149%;
+        margin-top: 0px;
+        clear: both;
+        width: 31.767459%;
+        height: 42px;
+    }
+
+    #box21 {
+        margin-top: 24px;
+        margin-left: auto;
+        clear: none;
+        height: 136px;
+        width: 207.296875px;
+        margin-right: auto;
+    }
+
+    #box23 {
+        margin-top: 53px;
+        margin-left: auto;
+        clear: none;
+        width: 96.223958%;
+        margin-right: auto;
+        height: 845px;
+    }
+
+    #text13 {
+        font-size: 91.3%;
+        margin-top: 2px;
+        margin-left: auto;
+        clear: none;
+        height: auto;
+        width: 52.604871%;
+        float: none;
+        margin-right: auto;
+    }
+
+    #box25 {
+        margin-top: 15px;
+        margin-left: auto;
+        clear: none;
+        width: 31.173884%;
+        margin-right: auto;
+        height: 1px;
+        float: none;
+    }
+
+    #text14 {
+        margin-top: 23px;
+        margin-right: auto;
+        margin-left: auto;
+        clear: none;
+        height: auto;
+        width: 55.669824%;
+        float: none;
+    }
+
+    #box24 {
+        margin-top: 20px;
+        margin-left: auto;
+        clear: none;
+        height: 1px;
+        width: 31.17%;
+        margin-right: auto;
+        float: none;
+    }
+
+    #text15 {
+        margin-top: 18px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        height: auto;
+        width: 47.415426%;
+        float: none;
+    }
+}
+

@@ -1,0 +1,1013 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#box {
+    float: left;
+    height: 100%;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    min-height: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 4, 26, 0.478431);
+}
+
+#menu {
+    float: none;
+    height: 590.5px;
+    margin-left: auto;
+    margin-top: 22px;
+    clear: none;
+    width: 81.972789%;
+    background-color: rgb(0, 4, 23);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 3px 10px 0px;
+    box-shadow: rgb(0, 0, 0) 0px 3px 10px 0px;
+    margin-right: auto;
+}
+
+#modulo_group {
+    float: left;
+    height: 89.891697%;
+    margin-left: 3.176099%;
+    margin-top: 3px;
+    clear: both;
+    width: 94.996224%;
+    margin-right: 0%;
+    display: block;
+}
+
+#adm_central {
+    float: left;
+    height: 498px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 27.767725%;
+    margin-right: 0%;
+}
+
+#img_adm_cen {
+    float: none;
+    height: 137px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 137px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-right: auto;
+    background-image:url("resources/images/adm_central.svg");
+    background-attachment: scroll;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+    background-color: rgb(247, 178, 52);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#Administración_Central {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-top: 9px;
+    clear: none;
+    min-height: 24px;
+    font-family: comfortaa;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    max-width: 211.0479px;
+    margin-right: auto;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(244, 244, 244);
+    border-bottom-style: solid;
+}
+
+#Datos_de_Usuario {
+    float: none;
+    font-size: 1em;
+    width: 87.233412%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 13px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#grupo_investigacion {
+    float: none;
+    height: 498px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 27.767725%;
+    display: block;
+    margin-right: auto;
+}
+
+#img_gr_inv {
+    float: none;
+    height: 137px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 137px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-right: auto;
+    background-image:url("resources/images/group_inv.svg");
+    background-attachment: scroll;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+    background-color: rgb(247, 178, 52);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#Grupos_de_Investigación {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-top: 9px;
+    clear: none;
+    min-height: 24px;
+    font-family: comfortaa;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    max-width: 211.0479px;
+    margin-right: auto;
+    border-bottom-color: rgb(244, 244, 244);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#adm_proyectos {
+    float: right;
+    height: 527.5px;
+    margin-left: 72.226122%;
+    margin-top: -498px;
+    clear: none;
+    width: 27.767725%;
+    display: block;
+    margin-right: 0.00975001%;
+}
+
+#img_adm_p {
+    float: none;
+    height: 137px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 137px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-right: auto;
+    background-image:url("resources/images/project.svg");
+    background-attachment: scroll;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+    background-color: rgb(247, 178, 52);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#Administración_de_Proyectos {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-top: 9px;
+    clear: none;
+    min-height: 24px;
+    font-family: comfortaa;
+    color: rgb(244, 244, 244);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    max-width: 211.0479px;
+    margin-right: auto;
+    border-bottom-color: rgb(244, 244, 244);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#Datos_de_Usuario:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Registro_de_Cofinanciador:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Registro_de_Cofinanciador {
+    float: none;
+    font-size: 1em;
+    width: 87.225423%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 8.5px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Busqueda_de_Cofinanciador:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Busqueda_de_Cofinanciador {
+    float: none;
+    font-size: 1em;
+    width: 87.225424%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 8px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Asignación_de_Perfiles:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Asignación_de_Perfiles {
+    float: none;
+    font-size: 1em;
+    width: 87.225424%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 8.5px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Busqueda_de_Usuario:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Busqueda_de_Usuario {
+    float: none;
+    font-size: 1em;
+    width: 87.225424%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 9.5px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Registro_de_Grupo_de_Investigación:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Registro_de_Grupo_de_Investigación {
+    float: none;
+    font-size: 1em;
+    width: 91.361753%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 13px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Postulación_de_Proyectos_de_Investigación:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Postulación_de_Proyectos_de_Investigación {
+    float: none;
+    font-size: 1em;
+    width: 91.361753%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Subir_Evidencias:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Subir_Evidencias {
+    float: none;
+    font-size: 1em;
+    width: 91.361753%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 11px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Aprobación_de_Titulos_y_Evidencias:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Aprobación_de_Titulos_y_Evidencias {
+    float: none;
+    font-size: 1em;
+    width: 91.361753%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 12.5px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Registro_de_Articulo:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Registro_de_Articulo {
+    float: none;
+    font-size: 1em;
+    width: 91.361753%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 7px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Reportes:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Reportes {
+    float: none;
+    font-size: 1em;
+    width: 91.361753%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 7px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Aprobar_Grupos_de_Investigación:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Aprobar_Grupos_de_Investigación {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 8px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Aprobar_Proyecto_de_Investigación:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Aprobar_Proyecto_de_Investigación {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 5px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Ingreso_de_Objetivos_Especificos:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Ingreso_de_Objetivos_Especificos {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 6px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Ingreso_de_Presupuesto:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Ingreso_de_Presupuesto {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 4px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Ingreso_de_Actividades:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Ingreso_de_Actividades {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 5.5px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Ingreso_Evidencias:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Ingreso_Evidencias {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 4px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Asignar_Investigador:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Asignar_Investigador {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 4px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Aprobar_Actividades:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Aprobar_Actividades {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-top: 4px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+    margin-right: auto;
+}
+
+#Progreso:hover {
+    color: rgb(244, 244, 244);
+    background-color: rgb(247, 178, 52);
+}
+
+#Progreso {
+    float: none;
+    font-size: 1em;
+    width: 93.10098%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 4.591335%;
+    margin-top: 4px;
+    clear: none;
+    min-height: 23px;
+    font-family: muli;
+    color: rgb(247, 178, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 211.0479px;
+    display: block;
+}
+
+#close {
+    float: right;
+    height: 31px;
+    margin-left: 0px;
+    margin-top: 6px;
+    clear: none;
+    width: 31px;
+    background-image:url("resources/images/close.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-right: 0.47358748%;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#close:hover {
+    background-image:url("resources/images/close2.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+@media only screen and (max-width: 720px) {
+    #menu {
+        margin-top: 22px;
+        margin-left: auto;
+        clear: none;
+        width: 91.202257%;
+        margin-right: auto;
+    }
+
+    #Aprobar_Grupos_de_Investigación {
+        font-size: 100%;
+    }
+
+    #Datos_de_Usuario {
+        font-size: 100%;
+    }
+
+    #Registro_de_Cofinanciador {
+        font-size: 100%;
+    }
+
+    #Busqueda_de_Cofinanciador {
+        font-size: 100%;
+    }
+
+    #Asignación_de_Perfiles {
+        font-size: 100%;
+    }
+
+    #Busqueda_de_Usuario {
+        font-size: 100%;
+    }
+
+    #Registro_de_Grupo_de_Investigación {
+        font-size: 100%;
+    }
+
+    #Postulación_de_Proyectos_de_Investigación {
+        font-size: 100%;
+    }
+
+    #Subir_Evidencias {
+        font-size: 100%;
+    }
+
+    #Aprobación_de_Titulos_y_Evidencias {
+        font-size: 100%;
+    }
+
+    #Registro_de_Articulo {
+        font-size: 100%;
+    }
+
+    #Reportes {
+        font-size: 100%;
+    }
+
+    #Aprobar_Proyecto_de_Investigación {
+        font-size: 100%;
+    }
+
+    #Ingreso_de_Objetivos_Especificos {
+        font-size: 100%;
+    }
+
+    #Ingreso_de_Presupuesto {
+        font-size: 100%;
+    }
+
+    #Ingreso_de_Actividades {
+        font-size: 100%;
+    }
+
+    #Ingreso_Evidencias {
+        font-size: 100%;
+    }
+
+    #Asignar_Investigador {
+        font-size: 100%;
+    }
+
+    #Aprobar_Actividades {
+        font-size: 100%;
+    }
+
+    #Progreso {
+        font-size: 100%;
+    }
+
+    #box {
+        top: -1px;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #Progreso {
+        font-size: 80%;
+    }
+
+    #Aprobar_Actividades {
+        font-size: 80%;
+    }
+
+    #Asignar_Investigador {
+        font-size: 80%;
+    }
+
+    #Ingreso_Evidencias {
+        font-size: 80%;
+    }
+
+    #Ingreso_de_Actividades {
+        font-size: 80%;
+    }
+
+    #Ingreso_de_Presupuesto {
+        font-size: 80%;
+    }
+
+    #Ingreso_de_Objetivos_Especificos {
+        font-size: 80%;
+    }
+
+    #Aprobar_Proyecto_de_Investigación {
+        font-size: 80%;
+    }
+
+    #Aprobar_Grupos_de_Investigación {
+        font-size: 80%;
+        margin-top: 13px;
+        clear: none;
+    }
+
+    #Registro_de_Grupo_de_Investigación {
+        font-size: 80%;
+    }
+
+    #Postulación_de_Proyectos_de_Investigación {
+        font-size: 80%;
+    }
+
+    #Subir_Evidencias {
+        font-size: 80%;
+    }
+
+    #Aprobación_de_Titulos_y_Evidencias {
+        font-size: 80%;
+    }
+
+    #Registro_de_Articulo {
+        font-size: 80%;
+    }
+
+    #Reportes {
+        font-size: 80%;
+    }
+
+    #Datos_de_Usuario {
+        font-size: 80%;
+    }
+
+    #Registro_de_Cofinanciador {
+        font-size: 80%;
+    }
+
+    #Busqueda_de_Cofinanciador {
+        font-size: 80%;
+    }
+
+    #Asignación_de_Perfiles {
+        font-size: 80%;
+    }
+
+    #Busqueda_de_Usuario {
+        font-size: 80%;
+    }
+
+    #img_adm_p {
+        margin-top: 0.15625px;
+        margin-left: 7.347767%;
+        clear: none;
+        width: 102.171875px;
+        height: 102.17px;
+    }
+
+    #img_gr_inv {
+        width: 102.17px;
+        height: 102.17px;
+    }
+
+    #img_adm_cen {
+        width: 102.17px;
+        height: 102.17px;
+    }
+
+    #Administración_de_Proyectos {
+        margin-top: 8.84375px;
+        clear: none;
+    }
+
+    #menu {
+        margin-top: 18px;
+        clear: none;
+    }
+}
+

@@ -1,0 +1,293 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    position: relative;
+}
+
+#box_aprobacion_titulo_evidencia {
+    float: none;
+    height: 357px;
+    margin-left: auto;
+    margin-top: 76px;
+    clear: none;
+    width: 70.167965%;
+    margin-right: auto;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#text {
+    float: left;
+    font-size: 1.9em;
+    width: 49.225596%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 6.131893%;
+    margin-top: 16.5px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    display: block;
+    margin-right: 0%;
+}
+
+#btn_negar:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 178, 52);
+}
+
+#btn_negar {
+    float: none;
+    height: 31px;
+    font-size: 1em;
+    margin-left: 25.597919%;
+    margin-top: 17.5px;
+    clear: none;
+    width: 18.266188%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    border-top-color: rgb(247, 178, 52);
+    border-right-color: rgb(247, 178, 52);
+    border-bottom-color: rgb(247, 178, 52);
+    border-left-color: rgb(247, 178, 52);
+    display: block;
+    margin-right: 0%;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#btn_aprobar:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 178, 52);
+}
+
+#btn_aprobar {
+    float: right;
+    height: 31px;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-top: -31px;
+    clear: none;
+    width: 18.266188%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    border-top-color: rgb(247, 178, 52);
+    border-right-color: rgb(247, 178, 52);
+    border-bottom-color: rgb(247, 178, 52);
+    border-left-color: rgb(247, 178, 52);
+    display: block;
+    margin-right: 25.617643%;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#box_cabecera {
+    float: none;
+    height: 120px;
+    clear: none;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    display: block;
+    margin-top: 0px;
+    background-color: rgb(0, 8, 51);
+    margin-right: auto;
+}
+
+#img_logo {
+    float: left;
+    width: 10.931414%;
+    max-width: none;
+    height: 43.765625px;
+    margin-left: 6.132851%;
+    margin-top: 37px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+}
+
+#txt_nom_usuario {
+    float: right;
+    font-size: 1.2em;
+    width: 14.523491%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 33px;
+    clear: none;
+    min-height: 20px;
+    margin-right: 1.343415%;
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic';
+}
+
+#lnk_cerrar_sesion {
+    float: right;
+    font-size: 0.7em;
+    width: 12.967076%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 13px;
+    clear: right;
+    min-height: 0px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    text-indent: 0px;
+    display: block;
+    margin-right: 2.901351%;
+}
+
+#box_img_usuario {
+    float: right;
+    height: 52px;
+    margin-left: 0px;
+    margin-top: -28px;
+    clear: none;
+    width: 52px;
+    margin-right: 1.197359%;
+    display: block;
+    background-image:url("img/perfil.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+    background-color: rgb(0, 2, 13);
+}
+
+@media only screen and (max-width: 480px) {
+    #box_cabecera {
+        height: 76px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -1px;
+        clear: none;
+        float: none;
+    }
+
+    #img_logo {
+        margin-top: 0px;
+        margin-left: 6.132322%;
+        clear: none;
+        float: left;
+        height: 66.765625px;
+        width: 22.417626%;
+        max-width: none;
+        margin-right: 0px;
+    }
+
+    #txt_nom_usuario {
+        margin-right: 12.768044%;
+        margin-top: 14.234375px;
+        clear: none;
+        height: auto;
+        width: 18.94613%;
+    }
+
+    #lnk_cerrar_sesion {
+        margin-right: 14.670502%;
+        margin-top: 10px;
+        clear: right;
+        margin-left: 0px;
+        height: auto;
+        width: 17.04694%;
+    }
+
+    #box_img_usuario {
+        margin-right: 8.851987%;
+        margin-top: -20px;
+        clear: none;
+        opacity: 0;
+        margin-left: 0px;
+    }
+
+    #box_aprobacion_titulo_evidencia {
+        margin-top: 53.5px;
+        margin-left: auto;
+        clear: none;
+        width: 84.734571%;
+        margin-right: auto;
+        float: none;
+    }
+
+    #btn_negar {
+        margin-top: 17.5px;
+        margin-left: 25.715873%;
+        clear: none;
+    }
+
+    #btn_aprobar {
+        margin-right: 24.401804%;
+        margin-top: -31px;
+        clear: none;
+        width: 19.354733%;
+    }
+
+    #text {
+        height: auto;
+        width: 86.535696%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+    }
+}
+

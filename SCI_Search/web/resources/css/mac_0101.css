@@ -1,0 +1,1024 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+#pnl_login {
+    float: right;
+    height: 250px;
+    margin-left: 0px;
+    margin-top: 1px;
+    clear: none;
+    width: 27.588982%;
+    background-color: rgb(0, 4, 26);
+    margin-right: 0%;
+}
+
+#pnl_registro {
+    float: left;
+    height: auto;
+    clear: both;
+    width: 27.5905%;
+    background-color: rgb(0, 4, 26);
+    position: absolute;
+    top: 251px;
+    left: 72.4095%;
+    bottom: 0px;
+    right: 0%;
+}
+
+#pnl_saludo {
+    float: left;
+    height: auto;
+    clear: both;
+    width: 37.436224%;
+    position: absolute;
+    top: 332px;
+    left: 0%;
+    bottom: 0px;
+    background-color: rgb(247, 178, 52);
+}
+
+#pnl_copyrigth {
+    float: left;
+    height: auto;
+    clear: both;
+    width: 34.961127%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 332px;
+    left: 37.433188%;
+    bottom: 0px;
+}
+
+#formgroup {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 83.315459%;
+}
+
+#txt_usuario {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+}
+
+#lbl_usuario {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#image {
+    float: left;
+    width: 23px;
+    height: 25px;
+    margin-left: 86.103876%;
+    margin-top: -30px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+    max-width: 11.567336%;
+}
+
+#box {
+    float: none;
+    height: 33px;
+    margin-left: auto;
+    margin-top: 25.734375px;
+    clear: none;
+    width: 60.187192%;
+    background-color: rgb(0, 2, 13);
+    margin-right: auto;
+}
+
+#box1 {
+    float: none;
+    height: 33px;
+    margin-left: auto;
+    margin-top: 14.5px;
+    clear: none;
+    width: 60.187192%;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(0, 2, 13);
+}
+
+#formgroup1 {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 83.315459%;
+}
+
+#lbl_password {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_password {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    background-color: rgba(255, 0, 0, 0);
+    font-family: 'Century Gothic';
+}
+
+#image1 {
+    float: left;
+    width: 23px;
+    height: 25px;
+    margin-left: 86.103876%;
+    margin-top: -30px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+    max-width: 11.567336%;
+}
+
+#btn_login {
+    float: none;
+    height: 31px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 16.5px;
+    clear: none;
+    width: 60.196413%;
+    margin-right: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    border-top-color: rgb(247, 178, 52);
+    border-right-color: rgb(247, 178, 52);
+    border-bottom-color: rgb(247, 178, 52);
+    border-left-color: rgb(247, 178, 52);
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#text4 {
+    float: none;
+    font-size: 2.7em;
+    width: 81.682078%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 1px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: pt-sans-narrow;
+    text-indent: 0px;
+    margin-right: auto;
+}
+
+#btn_login:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 178, 52);
+}
+
+#lnk_olvidar_contrasena {
+    float: none;
+    font-size: 0.8em;
+    width: 75.648674%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 7px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    text-indent: 0px;
+    margin-right: auto;
+    display: block;
+}
+
+#formgroup2 {
+    float: left;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 4.293263%;
+    margin-top: 16px;
+    clear: none;
+    width: 44.209599%;
+    margin-right: 0px;
+    background-color: rgb(0, 2, 13);
+}
+
+#lbl_nombre {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_nombre {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#formgroup3 {
+    float: right;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 16px;
+    clear: none;
+    width: 44.209599%;
+    margin-right: 5.151915%;
+    background-color: rgb(0, 2, 13);
+}
+
+#lbl_apellido {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_apellido {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#formgroup4 {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 62.5px;
+    clear: none;
+    width: 91.061207%;
+    margin-right: auto;
+    background-color: rgb(0, 2, 13);
+}
+
+#lbl_email {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_email {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#formgroup5 {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 12.5px;
+    clear: none;
+    width: 91.061206%;
+    margin-right: auto;
+    background-color: rgb(0, 2, 13);
+}
+
+#lbl_repetir_email {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_repetir_email {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#formgroup6 {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 11px;
+    clear: none;
+    width: 91.061206%;
+    margin-right: auto;
+    background-color: rgb(0, 2, 13);
+}
+
+#lbl_contrasena {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_contrasena {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+    text-indent: 7px;
+    font-family: 'Century Gothic';
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#btn_terminado:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 178, 52);
+}
+
+#btn_terminado {
+    float: left;
+    height: 31px;
+    font-size: 1em;
+    margin-left: 19.977986%;
+    margin-top: 8.5px;
+    clear: left;
+    width: 64.997414%;
+    margin-right: 0%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    border-top-color: rgb(247, 178, 52);
+    border-right-color: rgb(247, 178, 52);
+    border-bottom-color: rgb(247, 178, 52);
+    border-left-color: rgb(247, 178, 52);
+    display: block;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#formgroup7 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 4.275011%;
+    margin-top: 9px;
+    clear: left;
+    width: 21.956172%;
+    min-height: auto;
+}
+
+#cmb_dia {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    background-color: rgb(0, 2, 13);
+}
+
+#lbl_Dia {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#formgroup8 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 5.391024%;
+    margin-top: 9px;
+    clear: none;
+    width: 26.437023%;
+    min-height: auto;
+    margin-right: 0px;
+}
+
+#lbl_Mes {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#cmb_mes {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    background-color: rgb(0, 2, 13);
+}
+
+#formgroup9 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 8.443604%;
+    margin-top: 9px;
+    clear: none;
+    width: 29.447595%;
+    min-height: auto;
+    margin-right: 0px;
+}
+
+#lbl_ano {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#cmb_ano {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    background-color: rgb(0, 2, 13);
+}
+
+#text5 {
+    float: left;
+    font-size: 1em;
+    width: 90.548204%;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 4.277813%;
+    margin-top: 7px;
+    clear: none;
+    min-height: 19px;
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic';
+}
+
+#formgroup10 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 15.910093%;
+    margin-top: 21px;
+    clear: left;
+    width: auto;
+    min-height: auto;
+}
+
+#rdo_hombre {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: inline-block;
+    width: auto;
+}
+
+#text6 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic';
+}
+
+#formgroup11 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 14.43918%;
+    margin-top: 21px;
+    clear: none;
+    width: auto;
+    min-height: auto;
+}
+
+#rdo_mujer {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: inline-block;
+    width: auto;
+}
+
+#text7 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: inline-block;
+    font-family: 'Century Gothic';
+    color: rgb(255, 255, 255);
+}
+
+#img_logo {
+    float: none;
+    width: 39.545379%;
+    max-width: none;
+    height: 43.765625px;
+    margin-left: auto;
+    margin-top: 15.5px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#text1 {
+    float: none;
+    font-size: 1.3em;
+    width: 87.19072%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 86px;
+    clear: none;
+    min-height: 154px;
+    font-family: 'Century Gothic';
+    margin-right: auto;
+}
+
+#text {
+    float: left;
+    font-size: 2em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 6.40464%;
+    margin-top: 39px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(244, 244, 244);
+    font-family: 'Century Gothic';
+}
+
+#image2 {
+    float: none;
+    width: auto;
+    max-width: 37.056984%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 39px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#text2 {
+    float: none;
+    font-size: 1.1em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 34.5px;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(0, 46, 85);
+}
+
+#text3 {
+    float: none;
+    font-size: 0.9em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 23px;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(0, 46, 85);
+    display: block;
+    margin-bottom: 15px;
+}
+
+#pnl_fondo {
+    float: left;
+    height: 331px;
+    margin-left: 0%;
+    margin-top: 1px;
+    clear: none;
+    width: 72.411018%;
+    background-color: rgb(0, 8, 51);
+}
+
+@media only screen and (max-width: 480px) {
+    #pnl_fondo {
+        margin-top: 1px;
+        margin-left: -32.799479%;
+        clear: none;
+        width: 32.799479%;
+    }
+
+    #pnl_saludo {
+        top: 741px;
+        left: 0%;
+        height: 386px;
+        width: 99.996745%;
+    }
+
+    #pnl_copyrigth {
+        top: 1127px;
+        left: 0%;
+        height: 350px;
+        width: 100%;
+    }
+
+    #pnl_registro {
+        top: 251px;
+        left: 0%;
+        height: 490px;
+        width: 99.996745%;
+    }
+
+    #pnl_login {
+        width: 100%;
+    }
+
+    #box {
+        margin-top: 25.734375px;
+        margin-left: auto;
+        clear: none;
+        width: 46.435547%;
+        margin-right: auto;
+    }
+
+    #box1 {
+        margin-top: 14.5px;
+        margin-left: auto;
+        clear: none;
+        width: 46.44%;
+        margin-right: auto;
+    }
+
+    #btn_login {
+        width: 46.44%;
+    }
+
+    #text4 {
+        text-align: center;
+    }
+
+    #formgroup2 {
+        margin-top: 16px;
+        margin-left: 17.064358%;
+        clear: none;
+        width: 31.433315%;
+    }
+
+    #formgroup3 {
+        margin-right: 17.064358%;
+        margin-top: 16px;
+        clear: none;
+        width: 32.292718%;
+    }
+
+    #formgroup4 {
+        margin-top: 62.5px;
+        margin-left: auto;
+        clear: none;
+        width: 65.812689%;
+        margin-right: auto;
+    }
+
+    #formgroup5 {
+        margin-top: 12.5px;
+        margin-left: auto;
+        clear: none;
+        width: 65.81%;
+        margin-right: auto;
+    }
+
+    #formgroup6 {
+        width: 65.81%;
+    }
+
+    #text5 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+        text-align: center;
+        width: 65.81%;
+    }
+
+    #formgroup7 {
+        margin-top: 9px;
+        margin-left: 17.064358%;
+        clear: none;
+        width: 11.247111%;
+    }
+
+    #formgroup10 {
+        margin-top: 21px;
+        margin-left: 17.093655%;
+        clear: left;
+    }
+
+    #btn_terminado {
+        margin-top: 78.5px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #formgroup8 {
+        margin-top: 9px;
+        margin-left: 3.304144%;
+        clear: none;
+    }
+
+    #formgroup9 {
+        margin-top: 9px;
+        margin-left: 4.277483%;
+        clear: none;
+        width: 20.60614%;
+    }
+
+    #formgroup11 {
+        margin-top: 22px;
+        margin-left: 31.849995%;
+        clear: none;
+    }
+}
+

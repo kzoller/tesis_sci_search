@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    
+    <h:head>
+        <title>Aprobaci&oacute;n de T&iacute;tulo y Evidencias</title>
+        <h:outputStylesheet library="css" name="boilerplate.css"/>
+        <h:outputStylesheet library="css" name="mgi_0204.css"/>
+    </h:head>
+    <h:body>
+             <div id="primaryContainer" class="primaryContainer clearfix">
+            <div id="box_cabecera" class="clearfix">
+                <h:graphicImage value="resources/images/logo_sci_search.svg" id="img_logo" class="image"/>
+                <p id="txt_nom_usuario">Nombre</p>
+                <p id="lnk_cerrar_sesion">Cerrar Sesi&oacute;n</p>
+                <div id="box_img_usuario" class="clearfix">
+                </div>
+            </div>
+           <p id="text">
+               Aprobaci&oacute;n de T&iacute;tulo y Evidencias
+        </p>
+                 
+        <div id="box_aprobacion_titulo_evidencia" class="clearfix">
+            <h:dataTable style=" alignment-adjust:auto; border-bottom-color:rgb(168, 168, 168);border-left-color: rgb(168, 168, 168);" class="people"  value="#{fGrupo.lista}" var="cliente"
+                         border="1" cellpadding="5" cellspacing="0" width="90%" rules="all" >
+                <h:column >     				
+                    <f:facet name="header">Nombre</f:facet>    				
+                    #{cliente.grId}
+                </h:column>
+                <h:column >
+                <f:facet name="header">Adjunto</f:facet>
+                <img type="button" src="resources/images/Treetog-I-PDF.ico" 
+                     target="_blank"  ajax="false" immediate="false"  width="20" height="20" />
+                </h:column>
+                </h:dataTable>
+        </div>
+        <input id="btn_negar" type="button" value="NEGAR"></input>
+        <input id="btn_aprobar" type="button" value="APROBAR"></input>
+    </div>
+            
+    </h:body>
+</html>

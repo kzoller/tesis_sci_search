@@ -1,0 +1,506 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    position: relative;
+}
+
+#pnl_fondo {
+    float: left;
+    height: auto;
+    clear: none;
+    width: 57.333252%;
+    background-color: rgb(247, 178, 52);
+    position: absolute;
+    top: 120px;
+    left: 0%;
+    bottom: 0%;
+    right: auto;
+}
+
+#pnl_formulario {
+    float: right;
+    height: auto;
+    clear: both;
+    width: 42.666748%;
+    position: absolute;
+    top: 120px;
+    left: auto;
+    background-color: rgb(255, 255, 255);
+    bottom: 0%;
+    right: 0%;
+}
+
+#pnl_formulario_1 {
+    float: right;
+    height: auto;
+    clear: both;
+    width: 42.666748%;
+}
+
+
+#text {
+    float: left;
+    font-size: 2.2em;
+    width: 79.210825%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 2.650827%;
+    margin-top: 26px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: COCOGOOSE;
+}
+
+#pnl_botones {
+    float: left;
+    height: auto;
+    clear: none;
+    width: 57.333252%;
+    position: absolute;
+    top: 498.125px;
+    left: 0%;
+    bottom: 0%;
+    background-color: rgb(247, 178, 52);
+    right: auto;
+}
+
+#tig_nombre {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 36.75px;
+    clear: none;
+    width: 54.374751%;
+    margin-right: auto;
+}
+
+#lbl_nombre {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_nombre {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    color: rgb(168, 168, 168);
+    font-family: 'Century Gothic';
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-indent: 7px;
+}
+
+#btn_negar:hover {
+    color: rgb(247, 178, 52);
+    background-color: rgb(244, 244, 244);
+}
+
+#btn_negar {
+    float: none;
+    height: 31px;
+    font-size: 1em;
+    margin-left: 10.696847%;
+    margin-top: 56.75px;
+    clear: none;
+    width: 31.859675%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(244, 244, 244);
+    font-family: 'Century Gothic';
+    border-top-color: rgb(244, 244, 244);
+    border-right-color: rgb(244, 244, 244);
+    border-bottom-color: rgb(244, 244, 244);
+    border-left-color: rgb(244, 244, 244);
+    display: block;
+    background-color: rgba(255, 0, 0, 0);
+    margin-right: 0%;
+}
+
+#tig_abreviatura {
+    float: none;
+    height: 33px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 26.25px;
+    clear: none;
+    width: 54.374751%;
+    margin-right: auto;
+}
+
+#lbl_abreviatura {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#txt_abreviatura {
+    float: none;
+    height: 33px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    color: rgb(168, 168, 168);
+    font-family: 'Century Gothic';
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-indent: 7px;
+}
+
+#tbl_evidencia {
+    float: none;
+    height: 284px;
+    margin-left: auto;
+    margin-top: 62px;
+    clear: none;
+    width: 94.048638%;
+    margin-right: auto;
+   // background-color: rgb(168, 168, 168);
+   border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(168, 168, 168);
+    border-right-color: rgb(168, 168, 168);
+    border-bottom-color: rgb(168, 168, 168);
+    border-left-color: rgb(168, 168, 168);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-indent: 7px;
+}
+
+#btn_aprobar:hover {
+    color: rgb(247, 178, 52);
+    background-color: rgb(244, 244, 244);
+}
+
+#btn_aprobar {
+    float: right;
+    height: 31px;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-top: -31px;
+    clear: none;
+    width: 31.859675%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(244, 244, 244);
+    font-family: 'Century Gothic';
+    border-top-color: rgb(244, 244, 244);
+    border-right-color: rgb(244, 244, 244);
+    border-bottom-color: rgb(244, 244, 244);
+    border-left-color: rgb(244, 244, 244);
+    display: block;
+    margin-right: 10.702155%;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#box_cabecera {
+    float: none;
+    height: 120px;
+    clear: none;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    display: block;
+    margin-top: 0px;
+    background-color: rgb(0, 8, 51);
+    margin-right: auto;
+}
+
+#img_logo {
+    float: left;
+    width: 10.931414%;
+    max-width: none;
+    height: 43.765625px;
+    margin-left: 6.132851%;
+    margin-top: 37px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: block;
+}
+
+#txt_nom_usuario {
+    float: right;
+    font-size: 1.2em;
+    width: 14.523491%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 33px;
+    clear: none;
+    min-height: 20px;
+    margin-right: 1.343415%;
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic';
+}
+
+#lnk_cerrar_sesion {
+    float: right;
+    font-size: 0.7em;
+    width: 12.967076%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 13px;
+    clear: right;
+    min-height: 0px;
+    color: rgb(247, 178, 52);
+    font-family: 'Century Gothic';
+    text-indent: 0px;
+    display: block;
+    margin-right: 2.901351%;
+}
+
+#box_img_usuario {
+    float: right;
+    height: 52px;
+    margin-left: 0px;
+    margin-top: -28px;
+    clear: none;
+    width: 52px;
+    margin-right: 1.197359%;
+    display: block;
+    background-image:url("img/perfil.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+    background-color: rgb(0, 2, 13);
+}
+
+@media only screen and (max-width: 480px) {
+    #pnl_fondo {
+        margin-top: 0px;
+        margin-left: auto;
+        clear: none;
+        float: none;
+        top: 0px;
+        left: 0px;
+        position: static;
+        bottom: auto;
+        width: 100%;
+        margin-right: auto;
+        height: 7.546083%;
+    }
+
+    #box_cabecera {
+        height: 76px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -1px;
+        clear: none;
+        float: none;
+    }
+
+    #img_logo {
+        margin-top: 0px;
+        margin-left: 6.132322%;
+        clear: none;
+        float: left;
+        height: 66.765625px;
+        width: 22.417626%;
+        max-width: none;
+        margin-right: 0px;
+    }
+
+    #txt_nom_usuario {
+        margin-right: 12.768044%;
+        margin-top: 14.234375px;
+        clear: none;
+        height: auto;
+        width: 18.94613%;
+    }
+
+    #lnk_cerrar_sesion {
+        margin-right: 14.670502%;
+        margin-top: 10px;
+        clear: right;
+        margin-left: 0px;
+        height: auto;
+        width: 17.04694%;
+    }
+
+    #box_img_usuario {
+        margin-right: 8.851987%;
+        margin-top: -20px;
+        clear: none;
+        opacity: 0;
+        margin-left: 0px;
+    }
+
+    #pnl_formulario {
+        top: 0px;
+        right: auto;
+        position: static;
+        bottom: auto;
+        left: 0px;
+        width: 100%;
+        margin-right: auto;
+        margin-top: 0px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+    }
+
+    #text {
+        width: 79.20634%;
+        margin-bottom: 28px;
+        font-size: 2.4em;
+        line-height: 1.2em;
+    }
+
+    #pnl_botones {
+        position: static;
+        bottom: auto;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #btn_negar {
+        width: 31.854724%;
+        height: 31px;
+        margin-bottom: 35px;
+    }
+
+    #btn_aprobar {
+        width: 31.854724%;
+        height: 31px;
+        margin-bottom: 35px;
+        margin-right: 10.816553%;
+        margin-top: -66px;
+        clear: none;
+    }
+
+    #tig_nombre {
+        width: 54.367147%;
+        height: 33px;
+    }
+
+    #txt_nombre {
+        width: 100%;
+        height: 33px;
+    }
+
+    #tig_abreviatura {
+        width: 54.367147%;
+        height: 33px;
+    }
+
+    #txt_abreviatura {
+        width: 100%;
+        height: 33px;
+    }
+
+    #tbl_evidencia {
+        width: 94.046889%;
+        height: 284px;
+        margin-bottom: 22px;
+    }
+}
+
